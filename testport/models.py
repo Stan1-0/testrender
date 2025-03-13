@@ -16,4 +16,4 @@ class Description(models.Model):
     description = models.TextField()
 
     def __str__(self):
-        return self.description
+        return self.description 
